@@ -54,48 +54,5 @@ namespace Exercice06
       // A COMPLETER
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    public static void GreatestCommonDivisor ()
-    {
-      // Entrées
-      int a = 12;
-      int b = 21;
-
-      // Traitements
-      int pgcd = a;
-      while (b != 0)
-      {
-        int remaining = a % b;
-        a = b;
-        b = remaining;
-      }
-
-      // Sorties
-      pgcd = a;
-    }
   }
 }
